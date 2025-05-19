@@ -1,23 +1,43 @@
 # AI-Calculator-Computer-Vision
-Developed an AI-powered calculator using Computer Vision and Generative AI for real-time mathematical problem-solving.
+Developed an AI-powered calculator using Computer Vision and Generative AI for real-time mathematical problem-solving, allows users to have two modes: Air Draw and Trackpad Draw.
 
 ## Introduction
-This project enables users to draw mathematical expressions on a screen, which are then interpreted and solved using advanced computer vision techniques and Google's Generative AI. This provides an intuitive and efficient problem-solving tool, eliminating the need for traditional input methods.
+This project enables users to naturally draw mathematical expressions, captures them using real-time hand gesture recognition (OpenCV + MediaPipe) or a trackpad, and solves them using Google’s Generative AI. It provides step-by-step solutions, making it an efficient problem-solving tool, eliminating the need for traditional input methods.
 
 ## Key Technologies and Skills
 - Python
+- Google Gemini AI
 - Computer Vision
 - OpenCV
-- Pillow
 - MediaPipe
-- Google Gemini AI
 - Numpy
 - Streamlit
 
-## Work Flow
+## Objectives
 
+Based on my analysis, I set the following objectives:
+
+a. Recognition – Develop a real-time mathematical expression recognition system.  
+
+b. Gesture Tracking – Implement computer vision techniques for hand gesture tracking.  
+
+c. Computation – Integrate generative AI for accurate mathematical computation.  
+
+d. Interface – Use Streamlit for designing a user-friendly interface.  
+
+
+## Work Flow
+The workflow is shown using the following flowcharts:
 ### Backend Workflow
 ![Backend Workflow](https://github.com/user-attachments/assets/e6979242-42d6-4db8-8690-ceaf0a3450d2)
 
 ### Frontend Workflow
 ![Frontend Workflow](https://github.com/user-attachments/assets/ba8b2ece-ae54-4e17-b72f-f426e2e9cee2)
+
+## Final Output
+### Trackpad Draw Mode
+![Trackpad Draw Mode](https://github.com/user-attachments/assets/c0b8902e-442b-40f5-baf4-038ff5260546)
+
+### Air Draw Mode
+![Air Draw Mode](https://github.com/user-attachments/assets/b75b33f5-eecd-4ab0-a8b8-55b53b6f2787)
+
