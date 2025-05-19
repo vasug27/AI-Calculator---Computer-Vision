@@ -17,13 +17,13 @@ This project enables users to naturally draw mathematical expressions, captures 
 
 Based on my analysis, I set the following objectives:
 
-a. Recognition – Develop a real-time mathematical expression recognition system.  
+a. **Recognition** – Develop a real-time mathematical expression recognition system.  
 
-b. Gesture Tracking – Implement computer vision techniques for hand gesture tracking.  
+b. **Gesture Tracking** – Implement computer vision techniques for hand gesture tracking.  
 
-c. Computation – Integrate generative AI for accurate mathematical computation.  
+c. **Computation** – Integrate generative AI for accurate mathematical computation.  
 
-d. Interface – Use Streamlit for designing a user-friendly interface.  
+d. **Interface** – Use Streamlit for designing a user-friendly interface.  
 
 
 ## Work Flow
@@ -41,3 +41,30 @@ The workflow is shown using the following flowcharts:
 ### Air Draw Mode
 ![Air Draw Mode](https://github.com/user-attachments/assets/b75b33f5-eecd-4ab0-a8b8-55b53b6f2787)
 
+
+## Installation & Setup
+
+Follow the steps below to set up and run the project locally.
+
+### Clone the repository
+
+git clone https://github.com/your-username/AI-Calculator-Computer-Vision.git
+
+### Navigate into the project directory
+cd AI-Calculator-Computer-Vision
+
+### (Optional) Create and activate a virtual environment
+python -m venv venv
+
+venv\Scripts\activate      # On Windows
+
+source venv/bin/activate   # On macOS/Linux
+
+### Install dependencies
+pip install -r requirements.txt\
+
+## Running the App
+streamlit run app.py
+
+## Contact
+Email: vasugoel2754@gmail.com
