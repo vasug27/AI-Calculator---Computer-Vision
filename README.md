@@ -48,7 +48,7 @@ Follow the steps below to set up and run the project locally.
 
 ### Clone the repository
 
-git clone https://github.com/your-username/AI-Calculator-Computer-Vision.git
+[git clone https://github.com/your-username/AI-Calculator-Computer-Vision.git](https://github.com/vasug27/AI-Calculator---Computer-Vision.git)
 
 ### Navigate into the project directory
 cd AI-Calculator-Computer-Vision
